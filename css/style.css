@@ -17,20 +17,20 @@
 
 }
 
-.container ul {
+.header-ul {
     display: flex;
     gap: 20px;
     margin-right: 197px;
 }
 
-ul li a {
+.header-ul li a {
     text-decoration: none;
     font-size: 14px;
     font-family: sans-serif;
     color: #737373;
 }
 
-ul li {
+.header-ul li {
     list-style: none;
 }
 
@@ -308,6 +308,7 @@ ul li {
     justify-content: center;
 }
 
+
 .business-card-1 {
     display: flex;
     gap: 16px;
@@ -579,11 +580,46 @@ ul li {
 
 }
 
-
-
-
-.footer-div {
+.footer {
+    display: flex;
+    justify-content: space-evenly;
     background-color: #16697A;
-    margin-top: 98px;
-    justify-content: space-between;
+}
+
+.footer-li1 {
+    list-style: none;
+}
+
+.footer-ul1 {
+    padding-top: 50px;
+    padding-bottom: 100px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+}
+
+.footer-li1 a {
+    text-decoration: none;
+    color: #FFFFFF;
+    font-weight: 146;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 24px;
+    font-family: sans-serif;
+    margin-top: 10px;
+}
+
+.footer-li1 h4 {
+    color: #FFFFFF;
+    font-weight: 800;
+    font-size: 16px;
+    font-family: sans-serif;
+    line-height: 24px;
+}
+
+.linllar {
+    display: flex;
+    justify-content: space-evenly;
+
 }
